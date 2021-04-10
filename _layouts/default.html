@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  {% feed_meta %}
+  {% seo %}
+</head>
+
+<body text="#E3E3E3" class="defaults">
+
+  <div class="VStack">
+
+    {% include navigation.html %}
+
+    {{ content }}
+
+  </div>
+
+</body>
+
+</html>

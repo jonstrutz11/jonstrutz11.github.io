@@ -1,0 +1,34 @@
+---
+title: Blog
+---
+
+<div class="bodyText">
+
+  {% for tag in site.tags %}
+
+  {% if tag[0]=="KameKurosu" %}
+  <h1>KameKurosu: An iOS App Development Journey</h1>
+  {% endif %}
+
+  <h3 class='faded'>Blog Series</h3>
+
+  <ul>
+    {% for post in tag[1] %}
+
+    <li>
+      <h2 class="blogTitle"><a href="{{ post.url }}"><u>{{ post.title
+            }}</u></a></h2>
+
+      <p style='font-size: 22px'>
+        {{ post.date | date_to_string }}
+      </p>
+
+      {{ post.excerpt }}
+    </li>
+
+    {% endfor %}
+  </ul>
+
+  {% endfor %}
+
+</div>

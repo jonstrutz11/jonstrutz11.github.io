@@ -1,0 +1,57 @@
+.headshot {
+    border: 2px solid rgb(137, 139, 139);
+    margin-top: 10px;
+    margin-left: -20px;
+}
+
+.blogHorizontalImage {
+    border: 5px solid rgb(137, 139, 139);
+    display: block;
+    width: 100%;
+}
+
+.blogVerticalImage {
+    border: 5px solid rgb(137, 139, 139);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.blogVerticalImagePairLeft {
+    border: 5px solid rgb(137, 139, 139);
+    display: inline-block;
+    margin-left: auto;
+    margin-right: 5%;
+    width: 40%;
+}
+
+.blogVerticalImagePairRight {
+    border: 5px solid rgb(137, 139, 139);
+    display: inline-block;
+    margin-left: 5%;
+    margin-right: auto;
+    width: 40%;
+}
+
+.bigImage {
+    width: 80%;
+}
+
+.blogVerticalImageSmall {
+    border: 5px solid rgb(137, 139, 139);
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.paperHeaderImage {
+    border: 5px solid rgb(137, 139, 139);
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}

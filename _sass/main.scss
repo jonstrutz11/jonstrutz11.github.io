@@ -1,0 +1,56 @@
+//* Containers *//
+.HStack {
+    display: flex;
+    flex-direction: row;
+    flex: 0 0 auto;
+}
+
+.VStack {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+/* Centered text */
+.centeredHorizontal {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+/* Headings */
+.subheading {
+    font-size: 44px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.centeredSubheading {
+    text-align: center;
+    font-size: 44px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Page breaks */
+.horizontalLine {
+    width: 700px;
+    border-top: 5px solid rgb(137, 139, 139);
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Other */
+.noMargin {
+    margin: 0 0 0 0;
+}

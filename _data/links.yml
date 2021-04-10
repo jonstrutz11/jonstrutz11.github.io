@@ -1,0 +1,37 @@
+orgSites: 
+  tyoLab: https://tyolab.northwestern.edu/
+  broadbeltLab: http://broadbelt.northwestern.edu/
+tools: 
+  jekyll: https://jekyllrb.com/
+  MINE: https://minedatabase.ci.northwestern.edu/#/home
+papers: 
+  ADP1Omics: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4213383/
+  linlogModel: https://journals.plos.org/ploscompbiol/article?rev=2&id=10.1371/journal.pcbi.1007424
+  MINE: https://jcheminf.biomedcentral.com/articles/10.1186/s13321-015-0087-1
+  TdTbioRxiv: https://biorxiv.org/content/10.1101/634790v3.abstract
+github: 
+  mineServer: https://github.com/tyo-nu/MINE-Server
+  devSite: https://github.com/
+emails: 
+  personal: "mailto: jonstrutz11@gmail.com"
+  school: "mailto: jonathanstrutz2021@u.northwestern.edu"
+phone: "tel: 1-740-497-2666"
+profiles: 
+  - name: Jon's Google Scholar Profile
+    link: https://scholar.google.com/citations?user=QSoCVUUAAAAJ&hl=en
+    icon: /assets/images/icons/Google-Scholar.png
+  - name: Jon's LinkedIn Profile
+    link: https://www.linkedin.com/in/jonstrutz/
+    icon: /assets/images/icons/linkedin-logo.png
+  - name: Jon's GitHub Profile
+    link: https://github.com/jonstrutz11
+    icon: /assets/images/icons/GitHub-Mark.png
+  - name: Jon's StackOverflow Profile
+    link: https://stackoverflow.com/users/7407224/jon-strutz
+    icon: /assets/images/icons/stack-overflow.png
+  # - name: Kamesama Apps
+  #   link: https://kamesama-apps.business.site/
+  #   icon: /assets/images/icons/kamesama-apps.png
+  - name: Jon's WaniKani Profile
+    link: https://www.wanikani.com/users/jonstrutz11
+    icon: /assets/images/icons/wanikani.png
