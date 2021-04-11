@@ -28,7 +28,7 @@ After I had these mockups done, I got a bunch of feedback from family and friend
 ![Level Begin Splash Screen Mockup v2](/assets/images/blog-kamekurosu/mockup-v2-level-begin-splash-screen.png){:class="blogVerticalImagePairLeft"}
 ![Crossword Screen Mockup v2](/assets/images/blog-kamekurosu/mockup-v2-crossword-view.png){:class="blogVerticalImagePairRight"}
 
-As you can see, it looks a bit more fluid, has some extra :turtle: turtle art, and while I didn't change the colors used much, I changed how I used each color to make it pop a bit more.
+As you can see, it looks a bit more fluid, has some extra :turtle: turtle art (thanks, Peter!), and while I didn't change the colors used much, I changed how I used each color to make it pop a bit more.
 
 ## Music
 
