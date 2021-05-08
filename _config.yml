@@ -17,3 +17,6 @@ plugins:
   - jemoji
 
 highlighter: rouge
+
+# Google Analytics
+google_analytics: G-ZGJTPEKS9X
