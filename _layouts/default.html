@@ -12,8 +12,12 @@
   {% feed_meta %}
   {% seo %}
   {% if site.google_analytics and jekyll.environment == 'production' %}
-    {% include analytics.html %}
+  {% include analytics.html %}
   {% endif %}
+  {% if page.header-img %}
+  <meta property="og:image" content="{{ site.url }}/{{ page.header-img }}" />
+  {% endif %}
+  <meta property="og:description" content="{{ page.subtitle }}" />
 </head>
 
 <body text="#E3E3E3" class="defaults">

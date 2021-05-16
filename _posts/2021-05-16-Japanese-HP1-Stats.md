@@ -1,6 +1,8 @@
 ---
 title: "I Conquered My First Japanese Novel!"
 tag: "Japanese"
+header-img: "/assets/images/blog-japanese/headers/hp1-cover.jpg"
+subtitle: "33 hours of reading later, I finally finished the first Harry Potter book in Japanese!"
 ---
 
 ![Book Cover Art for Harry Potter and the Sorcerer's Stone in Japanese](/assets/images/blog-japanese/headers/hp1-cover.jpg){:class="blogHorizontalImage"}
