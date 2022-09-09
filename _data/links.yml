@@ -1,10 +1,12 @@
 orgSites: 
   tyoLab: https://tyolab.northwestern.edu/
   broadbeltLab: http://broadbelt.northwestern.edu/
+  LanzaTech: https://lanzatech.com
 tools: 
   jekyll: https://jekyllrb.com/
   MINE: https://minedatabase.ci.northwestern.edu/#/home
 papers: 
+  GoogleScholar: https://scholar.google.com/citations?user=QSoCVUUAAAAJ&hl=en
   ADP1Omics: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4213383/
   linlogModel: https://journals.plos.org/ploscompbiol/article?rev=2&id=10.1371/journal.pcbi.1007424
   MINE: https://jcheminf.biomedcentral.com/articles/10.1186/s13321-015-0087-1
