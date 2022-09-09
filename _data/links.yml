@@ -1,14 +1,19 @@
 orgSites: 
   tyoLab: https://tyolab.northwestern.edu/
   broadbeltLab: http://broadbelt.northwestern.edu/
+  LanzaTech: https://lanzatech.com
 tools: 
   jekyll: https://jekyllrb.com/
   MINE: https://minedatabase.ci.northwestern.edu/#/home
 papers: 
+  GoogleScholar: https://scholar.google.com/citations?user=QSoCVUUAAAAJ&hl=en
   ADP1Omics: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4213383/
   linlogModel: https://journals.plos.org/ploscompbiol/article?rev=2&id=10.1371/journal.pcbi.1007424
   MINE: https://jcheminf.biomedcentral.com/articles/10.1186/s13321-015-0087-1
+  MINE2: https://academic.oup.com/bioinformatics/article-abstract/38/13/3484/6589885
+  ipaLanzaTech: https://www.nature.com/articles/s41587-021-01195-w
   TdTbioRxiv: https://biorxiv.org/content/10.1101/634790v3.abstract
+  TdT: https://pubs.acs.org/doi/abs/10.1021/jacs.1c07331
 github: 
   mineServer: https://github.com/tyo-nu/MINE-Server
   devSite: https://github.com/jonstrutz11/jonstrutz11.github.io

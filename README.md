@@ -1,4 +1,4 @@
-### Hi, I'm Jon. I'm a PhD candidate at Northwestern University working in the biotechnology and computational biology spaces.
+### Hi, I'm Jon. I'm a Scientist at LanzaTech, a company that uses biology to turn pollution into useful products.
 
 This is my personal website, built with Jekyll.
 
