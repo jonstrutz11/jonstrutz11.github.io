@@ -2,7 +2,7 @@
 .HStack {
     display: flex;
     flex-direction: row;
-    flex: 0 0 auto;
+    justify-content: space-between;
 }
 
 .VStack {
@@ -28,18 +28,6 @@
     left: 50%;
     transform: translate(-50%, -50%);
   }
-
-/* Headings */
-.subheading {
-    font-size: 44px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.centeredSubheading {
-    text-align: center;
-    font-size: 44px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
 
 /* Page breaks */
 .horizontalLine {

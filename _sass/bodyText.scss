@@ -1,3 +1,17 @@
+/* Headings */
+.subheading {
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.centeredSubheading {
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Body Text */
 .bodyLink {
     text-decoration: none;
     color:white;
@@ -8,7 +22,7 @@
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     max-width: 650px;
     text-align: left;
-    margin: 0px auto 20px auto
+    margin: 0px auto 10px auto
 }
 
 .bodyText a {
@@ -22,4 +36,26 @@
 
 .bodyText li {
     margin: 10px 0;
+}
+
+/* Command line text and animation */
+.commandLineText {
+    font-family: Monaco;
+    font-size: 20px;
+    color: #7dc3e3;
+}
+
+.commandLineRectangle {
+    background-color: #7dc3e3;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+.blink {
+    animation: blink 1s infinite;
 }

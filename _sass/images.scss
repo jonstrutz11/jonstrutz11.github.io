@@ -1,7 +1,5 @@
 .headshot {
-    border: 2px solid rgb(137, 139, 139);
-    margin-top: 10px;
-    margin-left: -20px;
+    border: 2px solid white;
 }
 
 .blogHorizontalImage {
@@ -50,8 +48,9 @@
     border: 5px solid rgb(137, 139, 139);
     display: block;
     width: 50%;
+    max-width: 650px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 15px;
-    margin-top: 25px;
+    margin-top: 15px;
 }

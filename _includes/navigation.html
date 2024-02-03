@@ -1,38 +1,19 @@
 <nav>
-  <div class="HStack" style="justify-content: space-between;">
+    <!-- Name and title -->
+    <div class="container">
+      <h1 class="bodyText commandLineText" style="font-size: 60px; margin-top: 40px;">> Jon Strutz <span class="commandLineRectangle blink" style="font-size: 60px">▮</span></h1>
+      <h2 class="bodyText" style="min-width: 600px; font-size: 30px; margin-bottom: 10px;">Ph.D. | Bioinformatics Software Engineer</h2>
 
-    <div class="HStack">
-      <a href="/" class="bodyLink">
-        <img src="/assets/images/Headshot_small.jpg" alt="Jon Strutz Headshot" class="headshotCircle">
-      </a>
-
-      <div class="VStack" style="min-width: fit-content; font-size: large; justify-content: space-between;">
-        <div class="name">
-          <a href="/" class="bodyLink"><b>Jon Strutz</b></a>
-        </div>
-
-        <div class="VStack">
-          <div class="subheading" style="margin-bottom: 15px; font-size: 20px;">
-            Computational Biologist & Software Developer
-          </div>
-        </div>
-
+      <div class="bodyText">
+        {% for item in site.data.navigation %}
+        <a href="{{ item.link }}" {% if page.url==item.link %}class="current navlink" {% else %} class="navlink" {% endif %}>
+          {% if page.url==item.link %}
+            {{ item.name }}
+          {% else %}
+          <u>{{ item.name }}</u>
+          {% endif %}
+        </a>
+        {% endfor %}
       </div>
-
-      <div class="verticalLine"></div>
-
     </div>
-
-    <div class="HStack" style="margin-top: auto;">
-
-      {% for item in site.data.navigation %}
-      <a href="{{ item.link }}" {% if page.url==item.link %}class="current navlink" {% else %} class="navlink" {% endif
-        %}>
-        {{ item.name }}
-      </a>
-      {% endfor %}
-
-    </div>
-
-  </div>
 </nav>
