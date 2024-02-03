@@ -7,3 +7,5 @@ Gemfile.lock
 .vscode
 
 vendor
+
+.DS_Store
