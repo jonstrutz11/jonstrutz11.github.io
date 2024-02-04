@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ page.title }}</title>
   <link rel="stylesheet" href="/assets/css/styles.css">
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png">
@@ -20,16 +21,9 @@
   <meta property="og:description" content="{{ page.subtitle }}" />
 </head>
 
-<body text="#E3E3E3" class="defaults">
-
-  <div class="VStack">
-
-    {% include navigation.html %}
-
-    {{ content }}
-
-  </div>
-
+<body text="#E3E3E3" class="defaults container">
+  {% include navigation.html %}
+  {{ content }}
 </body>
 
 </html>

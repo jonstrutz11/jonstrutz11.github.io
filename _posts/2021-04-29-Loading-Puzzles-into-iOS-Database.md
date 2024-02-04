@@ -1,10 +1,7 @@
 ---
-title: "Loading Puzzles into our App"
+title: "📦 Loading Puzzles into our App"
 tag: "KameKurosu"
 ---
-
-![Making Noodles](/assets/images/blog-kamekurosu/headers/making-noodles.jpg){:class="blogHorizontalImage"}
-<figcaption class="blogImageSourceCaption"><a href="https://unsplash.com/photos/4nXkhLCrkLo"><u>Image Source</u></a></figcaption>
 
 Just as we can prepare pasta from scratch and have it then ready to be cooked, we can prepare our data to be available for use by our app!<!--more-->
 

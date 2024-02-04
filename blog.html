@@ -2,41 +2,34 @@
 title: Blog
 ---
 
-<div class="bodyText">
+<div class="bodyText container">
 
-  {% for tag in site.tags %}
+  {% for item in site.data.blog_series %}
+    
+      <p class="blogName"><b>{{ item.name }}</b></p>
 
-  {% if tag[0]=="KameKurosu" %}
-  <h1>KameKurosu: An iOS App Development Journey</h1>
-  {% endif %}
-  {% if tag[0]=="Japanese" %}
-  <h1>Japanese: A Language Learning Journey</h1>
-  {% endif %}
+      <ul>
+        {% for post in site.posts %}
+          {% if post.tag == item.tag %}
 
-  <h3 class='faded'>Blog Series</h3>
+          <li>
+            <div class="HStack">
+              <h2 class="blogTitle"><a href="{{ post.url }}"><u>{{ post.title
+                    }}</u></a></h2>
 
-  <h3 style='margin-bottom: -40px'>Most Recent Post:</h3>
+              <p class="blogDate">
+                {{ post.date | date_to_string }}
+              </p>
+            </div>
+            
+            <p class="blogExcerpt">
+              {{ post.excerpt }}
+            </p>
+          </li>
+          {% endif %}
 
-  <ul>
-    {% for post in tag[1] limit:1 %}
-
-    <li>
-      <h2 class="blogTitle" style='font-size: 32px'><a href="{{ post.url }}"><u>{{ post.title }}</u></a></h2>
-
-      <p style='font-size: 22px'>
-        {{ post.date | date_to_string }}
-      </p>
-
-      {{ post.excerpt }}
-    </li>
-
-    {% endfor %}
-  </ul>
-
-  <h3><a href="blog_series/{{ tag[0] }}.html"><u>See All Posts in this Series</u></a></h3>
-
-  <hr class="horizontalLine" style="margin-top: 0;">
-
+        {% endfor %}
+      </ul>
   {% endfor %}
 
 </div>

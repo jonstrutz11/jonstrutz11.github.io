@@ -1,10 +1,7 @@
 ---
-title: "Data Wrangling"
+title: "🤠 Data Wrangling"
 tag: "KameKurosu"
 ---
-
-![Ropes and Knots on a Ship](/assets/images/blog-kamekurosu/headers/ship-ropes.jpg){:class="blogHorizontalImage"}
-<figcaption class="blogImageSourceCaption"><a href="https://unsplash.com/photos/u-qKOduhSqg"><u>Image Source</u></a></figcaption>
 
 So, at this point I have 6 levels x 100 JSON files per level = 600 JSON files filled with raw data, not in a super nice format, and also containing data we don’t need. We need a way to organize all of this data for our app! <!--more-->
 

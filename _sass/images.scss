@@ -1,5 +1,15 @@
+img {
+    width: 100%;
+}
+
 .headshot {
-    border: 2px solid white;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.text {
+    float: left;
+    margin: -5px 20px 20px 0;
 }
 
 .blogHorizontalImage {
@@ -13,7 +23,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 40%;
 }
 
 .blogVerticalImagePairLeft {
@@ -33,7 +43,7 @@
 }
 
 .bigImage {
-    width: 80%;
+    width: 65%;
 }
 
 .blogVerticalImageSmall {
@@ -46,11 +56,46 @@
 
 .paperHeaderImage {
     border: 5px solid rgb(137, 139, 139);
-    display: block;
-    width: 50%;
-    max-width: 650px;
+    display: inline;
+    width: 90%;
+    max-width: 450px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 15px;
-    margin-top: 15px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.imageCaption {
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+@media (max-width: 320px) {
+    .imageCaption {
+        font-size: 4vw;
+        line-height: 1.5;
+    }
+}
+@media (min-width: 321px) and (max-width: 640px) {
+    .imageCaption {
+        font-size: 3vw;
+        line-height: 1.45;
+    }
+}
+@media (min-width: 641px) and (max-width: 840px) {
+    .imageCaption {
+        font-size: 2vw;
+        line-height: 1.4;
+    }
+}
+@media (min-width: 841px) and (max-width: 1024px) {
+    .imageCaption {
+        font-size: 1.5vw;
+        line-height: 1.35;
+    }
+}
+@media (min-width: 1025px) {
+    .imageCaption {
+        font-size: 2vh;
+        line-height: 1.3;
+    }
 }

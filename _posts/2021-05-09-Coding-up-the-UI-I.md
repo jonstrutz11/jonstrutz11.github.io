@@ -1,10 +1,7 @@
 ---
-title: "Coding up the UI: Part I"
+title: "🍱 Coding up the UI: Part I"
 tag: "KameKurosu"
 ---
-
-![Making Noodles](/assets/images/blog-kamekurosu/headers/scenery-perspective-from-porch.jpg){:class="blogHorizontalImage"}
-<figcaption class="blogImageSourceCaption"><a href="https://unsplash.com/photos/qwPSnBvdhtI"><u>Image Source</u></a></figcaption>
 
 Now that we have all our data into our app, we can actually make our app come to life!<!--more-->
 

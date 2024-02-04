@@ -1,10 +1,7 @@
 ---
-title: "Fancy Pen & Paper"
+title: "✍🏻 Fancy Pen & Paper"
 tag: "KameKurosu"
 ---
-
-![Pen and Paper](/assets/images/blog-kamekurosu/headers/fancy-pen-and-paper.jpg){:class="blogHorizontalImage"}
-<figcaption class="blogImageSourceCaption"><a href="https://unsplash.com/photos/xG8IQMqMITM"><u>Image Source</u></a></figcaption>
 
 The next step was to make more realistic-looking mockups. I used a program called <a href="https://www.sketch.com/"><u>Sketch</u></a> (for Mac) to create all the mockups. Here are the results! <!--more-->
 

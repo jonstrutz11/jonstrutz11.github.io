@@ -1,21 +1,28 @@
-.blogTitle {
-    margin-top: 60px;
+.blogName {
+    margin-top: 20px;
     margin-bottom: 0px;
-    font-size: 40px
+    font-size: 24px;
 }
 
-.blogImageSourceCaption {
-    margin-top: -10px;
-    text-align: center;
-    font-size: 12px;
+.blogTitle {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 20px
+}
+
+.blogDate {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+
+.blogExcerpt {
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .blogImageCaption {
     text-align: center;
     font-size: 18px;
     font-style: italic;
-}
-
-.faded {
-    opacity: 0.6;
 }

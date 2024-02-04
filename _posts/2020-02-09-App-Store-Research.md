@@ -1,10 +1,7 @@
 ---
-title: "The Competition"
+title: "🏅 The Competition"
 tag: "KameKurosu"
 ---
-
-![Chess Pieces in a Forest](/assets/images/blog-kamekurosu/headers/nature-chess.jpg){:class="blogHorizontalImage"}
-<figcaption class="blogImageSourceCaption"><a href="https://unsplash.com/photos/NiBcChX2CKc"><u>Image Source</u></a></figcaption>
 
 But wait! One thing about apps, which you are probably aware of, is that the market is incredibly saturated. There is an app for everything! From workout logs to todo lists to music players to language learning apps, you’d be hard-pressed to find an app that doesn’t do what you want. <!--more-->
 

@@ -1,10 +1,7 @@
 ---
-title: "Crossword Creation"
+title: "⬜ Crossword Creation"
 tag: "KameKurosu"
 ---
-
-![Printing Press Letter Blocks](/assets/images/blog-kamekurosu/headers/printing-press-letters.jpg){:class="blogHorizontalImage"}
-<figcaption class="blogImageSourceCaption"><a href="https://unsplash.com/photos/BVyNlchWqzs"><u>Image Source</u></a></figcaption>
 
 The next step was to create the levels. It turns out that crosswords aren’t easy to make. And I’m definitely not planning on making them all by hand... <!--more-->That said, I looked for programs that could automatically create them for me! After a lot of digging, I found a Japanese crossword program called クロスワード　ギバー (literally, Crossword Giver). Since it uses a lot of difficult Japanese words, it took some time for me to figure it out, but basically its a program where you provide it a clue list and an answer list and it will autogenerate a crossword for you! Here are some screenshots:
 

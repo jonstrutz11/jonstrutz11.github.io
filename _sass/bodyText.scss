@@ -1,14 +1,33 @@
 /* Headings */
 .subheading {
-    font-size: 30px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
-
-.centeredSubheading {
-    text-align: center;
-    margin-bottom: 5px;
-    font-size: 30px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+@media (max-width: 320px) {
+    .subheading {
+        font-size: 5.25vw
+    }
+}
+@media (min-width: 321px) and (max-width: 640px) {
+    .subheading {
+        font-size: 4.25vw
+    }
+}
+@media (min-width: 641px) and (max-width: 1024px) {
+    .subheading {
+        font-size: 3.25vw
+    }
+}
+@media (min-width: 841px) and (max-width: 1024px) {
+    .subheading {
+        font-size: 2.25vw
+    }
+}
+@media (min-width: 1025px) {
+    .subheading {
+        font-size: 2.5vmin
+    }
 }
 
 /* Body Text */
@@ -18,11 +37,39 @@
 }
 
 .bodyText {
-    font-size: 20px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    max-width: 650px;
     text-align: left;
-    margin: 0px auto 10px auto
+    max-width: 680px;
+}
+@media (max-width: 320px) {
+    .bodyText {
+        font-size: 4.75vw;
+        line-height: 1.5;
+    }
+}
+@media (min-width: 321px) and (max-width: 640px) {
+    .bodyText {
+        font-size: 3.75vw;
+        line-height: 1.45;
+    }
+}
+@media (min-width: 641px) and (max-width: 840px) {
+    .bodyText {
+        font-size: 2.75vw;
+        line-height: 1.4;
+    }
+}
+@media (min-width: 841px) and (max-width: 1024px) {
+    .bodyText {
+        font-size: 1.75vw;
+        line-height: 1.35;
+    }
+}
+@media (min-width: 1025px) {
+    .bodyText {
+        font-size: 2vmin;
+        line-height: 1.3;
+    }
 }
 
 .bodyText a {
@@ -30,25 +77,49 @@
     color:white;
 }
 
-.bodyText p {
-    line-height: 30px;
-}
-
 .bodyText li {
-    margin: 10px 0;
+    margin-bottom: 15px;
 }
 
 /* Command line text and animation */
 .commandLineText {
     font-family: Monaco;
-    font-size: 20px;
     color: #7dc3e3;
+    font-size: 5vmax;
+    margin-bottom: 5px;
+    margin-top: 1vw;
+    line-height: .6;
+}
+@media (max-width: 320px) {
+    .commandLineText {
+        font-size: 10vw
+    }
+}
+@media (min-width: 321px) and (max-width: 640px) {
+    .commandLineText {
+        font-size: 8vw
+    }
+}
+@media (min-width: 641px) and (max-width: 840px) {
+    .commandLineText {
+        font-size: 6vw
+    }
+}
+@media (min-width: 841px) and (max-width: 1024px) {
+    .commandLineText {
+        font-size: 4vw
+    }
+}
+@media (min-width: 1025px) {
+    .commandLineText {
+        font-size: 5vmin
+    }
 }
 
 .commandLineRectangle {
     background-color: #7dc3e3;
-    padding: 5px;
-    border-radius: 2px;
+    padding: .1vmax;
+    border-radius: .1vmax;
 }
 
 @keyframes blink {

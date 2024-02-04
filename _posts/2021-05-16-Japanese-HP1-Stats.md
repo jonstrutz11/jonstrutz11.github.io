@@ -1,13 +1,13 @@
 ---
-title: "I Conquered My First Japanese Novel!"
+title: "📚 I Conquered My First Japanese Novel!"
 tag: "Japanese"
 header-img: "/assets/images/blog-japanese/headers/hp1-cover.jpg"
 subtitle: "33 hours of reading later, I finally finished the first Harry Potter book in Japanese!"
 ---
 
-![Book Cover Art for Harry Potter and the Sorcerer's Stone in Japanese](/assets/images/blog-japanese/headers/hp1-cover.jpg){:class="blogHorizontalImage"}
-
 33 hours of reading later, I finally finished the first Harry Potter book in Japanese!<!--more-->
+
+![Book Cover Art for Harry Potter and the Sorcerer's Stone in Japanese](/assets/images/blog-japanese/headers/hp1-cover.jpg){:class="blogHorizontalImage"}
 
 A few years ago, I decided I'd try to read my first real Japanese novel. Because I love Harry Potter and already know the story quite well, I thought it would be a good place to start.
 So I bought ハリーポッターと賢者の石 (Harry Potter and the Sorcerer's Stone) for my Kindle. The nice thing about using a Kindle is that you can look up words instantly if you get stuck (great for learning languages!).

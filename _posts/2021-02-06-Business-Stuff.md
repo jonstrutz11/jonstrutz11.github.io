@@ -1,10 +1,7 @@
 ---
-title: "Some Business Stuff"
+title: "🗂️ Some Business Stuff"
 tag: "KameKurosu"
 ---
-
-![Hakone Shrine](/assets/images/blog-kamekurosu/headers/hakone-shrine.jpg){:class="blogHorizontalImage"}
-<figcaption class="blogImageSourceCaption"><a href="https://unsplash.com/photos/SBK40fdKbAg"><u>Image Source</u></a></figcaption>
 
 After finishing my mock-ups, I decided to take a break and focus on more business-related tasks. <!--more-->The first was getting an apple developer account, so that I could use Apple’s cloud database service for my users' level completion data, and so I could eventually publish the app to the App Store. In order to do this, I needed an e-mail. I thought about using my personal e-mail for a bit, but then thought a better decision might be to create a new e-mail specifically for these types of projects.
 

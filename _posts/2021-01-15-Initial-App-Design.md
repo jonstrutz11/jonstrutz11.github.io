@@ -1,10 +1,7 @@
 ---
-title: "Pen & Paper"
+title: "✍🏻 Pen & Paper"
 tag: "KameKurosu"
 ---
-
-![Pen and Paper](/assets/images/blog-kamekurosu/headers/pen-and-paper.jpg){:class="blogHorizontalImage"}
-<figcaption class="blogImageSourceCaption"><a href="https://unsplash.com/photos/XYogQSkSYZ8"><u>Image Source</u></a></figcaption>
 
 Well, I’ve finished my iOS course. Now, it is time to build my first app! Let’s get coding, right? Wrong. <!--more-->
 
