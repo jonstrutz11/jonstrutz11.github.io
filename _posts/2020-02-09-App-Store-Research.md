@@ -31,8 +31,8 @@ Maybe I’ll make the hint system in my app provide a swipeable set of character
 
 ### Competitor App III: "漢字クロス" (Kanji Cross)
 
-![Kanji Kurosu App Menu Screen](/assets/images/blog-kamekurosu/kanji-kurosu-menu.png){:class="blogVerticalImageSmall" style="margin-left: 40px"}
-![Kanji Kurosu App Crossword Screen](/assets/images/blog-kamekurosu/kanji-kurosu.png){:class="blogVerticalImageSmall" style="margin-left: 10px"}
+![Kanji Kurosu App Menu Screen](/assets/images/blog-kamekurosu/kanji-kurosu-menu.png){:class="blogVerticalImageSmall" style="display: inline"}
+![Kanji Kurosu App Crossword Screen](/assets/images/blog-kamekurosu/kanji-kurosu.png){:class="blogVerticalImageSmall" style="margin-left: 10px; display: inline"}
 
 Of all these, this one is most similar to my idea (it even has the same name!). It has all of the basic functionality and the same exact goal as my potential app: use crosswords to practice reading kanji.
 

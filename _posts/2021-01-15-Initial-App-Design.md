@@ -10,7 +10,7 @@ One of the things I learned in the course was about how important it is to desig
 That said, I grabbed an empty notebook (one with turtles on it that Ayana had bought for me for Christmas) and set to work.
 
 ![Turtle Notebook](/assets/images/blog-kamekurosu/turtle-notebook.jpg){:class="blogVerticalImage"}
-<figcaption class="blogImageCaption">It's a Turtley Awesome Christmas! :turtle::christmas_tree:</figcaption>
+<figcaption class="blogImageCaption">It's a Turtley Awesome Christmas!</figcaption>
 
 ### User Flow Diagram
 
@@ -30,7 +30,7 @@ I first spent some time coming up with an app title and logo while working on th
 ![Logo Ideas](/assets/images/blog-kamekurosu/drawn-logo-ideas.jpg){:class="blogVerticalImage bigImage"}
 <figcaption class="blogImageCaption">Possible logo ideas - I eventually settled on the one in the lower right</figCaption>
 
-While thinking about logos, I also settled on the name KameKurosu. Kame (pronounced kah-meh) means turtle in Japanese, and if you know anything about me, you know I love turtles :turtle:. Kame, which is written as 亀, has elements that sort of look like a grid, or a crossword puzzle! That led me to call the app KameKurosu, where Kurosu (pronounced ku-roh-su) means “cross”, short for crossword. In Japanese, you would write KameKurosu as 亀クロス (note that Kurosu is written in katakana since it originates from the English word, cross). To put this all into a nice, square logo, I made クロス vertical (often, Japanese text is written vertically) and centered above the “tail” of the turtle kanji. This then became the logo which I used on my drawn splash screen:
+While thinking about logos, I also settled on the name KameKurosu. Kame (pronounced kah-meh) means turtle in Japanese, and if you know anything about me, you know I love turtles. Kame, which is written as 亀, has elements that sort of look like a grid, or a crossword puzzle! That led me to call the app KameKurosu, where Kurosu (pronounced ku-roh-su) means “cross”, short for crossword. In Japanese, you would write KameKurosu as 亀クロス (note that Kurosu is written in katakana since it originates from the English word, cross). To put this all into a nice, square logo, I made クロス vertical (often, Japanese text is written vertically) and centered above the “tail” of the turtle kanji. This then became the logo which I used on my drawn splash screen:
 
 ![Splash Screen Wireframe](/assets/images/blog-kamekurosu/drawn-splash-screen.jpg){:class="blogVerticalImage"}
 <figcaption class="blogImageCaption">Splash screen idea - logo is simple and balanced</figCaption>
@@ -106,7 +106,7 @@ I'm thinking I'm going to use that purple as sort of an accent and text color, t
 
 Overall, I'm pretty happy with these initial sketches and design choices! I was able to:
 - create a basic user flow diagram
-- come up with a fun title, "KameKurosu" :turtle:
+- come up with a fun title, "KameKurosu"
 - design a logo that matches a turtle + crossword theme
 - draw up initial ideas for what I want each view to look like
 - and come up with some nice fonts and a pretty color scheme
