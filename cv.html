@@ -22,42 +22,58 @@ title: CV
     <!-- Summary -->
     <h1 class="subheading">Summary</h1>
     <p>
-      I am currently working as a Bioinformatics Software Engineer at LanzaTech where I develop bioinformatics software and pipelines that empower scientists to engineer microorganisms that can produce useful chemicals sustainably.
+      I am a scientist turned software engineer - my mission is to empower scientists by crafting high-quality software and building maintainable, scalable infrastructure. I currently work as a Bioinformatics Software Engineer at LanzaTech where I develop bioinformatics software and pipelines that empower scientists to engineer microorganisms that can produce useful chemicals sustainably.
     </p>
     <p>
-      Python is my <i>native</i> programming language, but I've also written a decent amount of JavaScript, HTML, CSS, and Swift. I use other tools like bash, docker, git, and AWS daily. I love to learn new technologies and use those tools to address practical needs.
-    </p>
-    <p>
-      I currently live in Skokie, IL and in my spare time I enjoy hiking, learning Japanese, building iOS apps, and strength training.
+      I currently live in the Chicago area with my wife, <u><a href="https://www.ayanastrutz.com/">Ayana</a></u>, and our two cats, Miko and Lupin.
     </p>
 
     See below and check out my <a href={{ site.data.links.linkedin }}><u>LinkedIn</u></a> for more info.
 
     <!-- Skills -->
     <h1 class="subheading">Skills: What can I do?</h1>
+    I've loosely divided my skillset into four categories:
+    <li style="margin-bottom: 0"><b>Software Development</b> - Crafting high-quality code to support scientific research</li>
+    <li style="margin-bottom: 0"><b>Data Infrastructure</b> - Building and maintaining scalable data infrastructure</li>
+    <li style="margin-bottom: 0"><b>Scientific Background</b> - Using my scientific background to inform the development process</li>
+    <li><b>Other</b> - Miscellaneous skills and interests</li>
+
     <h3>Software Development</h3>
     <ul>
-      <li><b>🧬 Develop Scientific Software:</b> For example, I helped develop the <a href="https://minedatabase.ci.northwestern.edu/#/home"><u>MINE Database</u></a>, to unlock new modes of scientific inquiry. I have also used backend frameworks like flask to build web APIs, one which also uses celery to schedule tasks across distributed workers in AWS.</li>
-      <li><b>🫱🏻‍🫲🏽 Communicate Effectively, esp. with Scientists:</b> With a STEM PhD and as a former scientist myself, I can collaborate effectively with key stakeholders on science teams during the development process.</li>
-      <li><b>✍🏻 Communicate and document effectively:</b> I am always focused on documenting my code via docstrings, type annotations, descriptive variable names, etc. The joy I get from cleaning up messy code is like no other and highly motivating. I have also used tools like Sphinx to generate API documentation for python libraries.</li>
-      <li><b>📊 Data visualization:</b> I love thinking about ways to visualize data to meet user requirements. I am most experienced with python libraries such as matplotlib, seaborn, and bokeh. I have also used tools like streamlit to create interactive dashboards.</li>
-      <li><b>☁ AWS:</b> I have practical experience with EC2, S3, and RDS and am familiar with networking concepts (VPNs, security groups, etc.). I have also used AWS CodeDeploy to deploy apps to production. I am currently working on obtaining the Solutions Architect AWS Associate Certification.</li>
-      <li><b>🏭 High-Performance Computing:</b> I have used the Slurm Workload Manager to submit jobs on supercomputing clusters. For example, I used the Quest supercomputing cluster at Northwestern University to predict MS2 spectra for millions of compounds in parallel.</li>
-      <li><b>🫙 Containerization:</b> I frequently use Docker to containerize my applications and have recently started diving deeper into docker compose.</li>
-      <li><b>🐚 Scripting:</b> I am very familiar with bash scripting, as it is often used in bioinformatics applications. I have also dabbled in bat scripting for Windows.</li>
-      <li><b>💾 Build and query databases:</b> I have experience building and working with MySQL (e.g. with python's sqlalchemy driver) as well as MongoDB (e.g. with pymongo driver) databases.</li>
-      <li><b>💻 Contribute to frontend development:</b> I'm familiar with vanilla JavaScript as well as basic HTML and CSS and have built basic user interfaces for APIs I've developed. I built this site using Jekyll + HTML/CSS.</li>
-      <li><b>🧹 Collaborate using git, GitHub, and Jira:</b> submit issues, make commits, merge changes, review and submit pull requests, use features like interactive rebase to keep commit history clean. I have used these tools for both solo projects as well as collaborative projects.</li>
-      <li><b>📱 Develop iOS applications using SwiftUI:</b> As a side project, I'm currently working on my first iPhone app - a crossword game for Japanese language learners (see blog for details).</li>
+      <li><b>🧬 Scientific Software Development:</b> In my current role, I develop and maintain a suite of 10+ bioinformatics pipelines comprising 100+ (mostly open-source) bioinformatics tools to process genomics datasets. I also built a web app that constructs 1000s of mathematical models daily and validates these models against in-house scientific datasets.</li>
+      <li><b>👨🏻‍💻 Write Web App Backends & APIs: </b>I've written and contributed to many web backends & REST APIs - I've used flask, Django, Next.js, and FastAPI (which I love using for quick prototypes).</li>
+      <li><b>💻 Contribute to Frontend Development:</b> I'm familiar with vanilla JavaScript, Typescript, as well as basic HTML and CSS. I've built simple user interfaces for APIs I've developed. I built this site using Jekyll + HTML/CSS (<u><a href="https://github.com/jonstrutz11/jonstrutz11.github.io">code here</a></u>). I have also contributed to projects that use Vue on the frontend.</li>
+      <li><b>🧠 Deploy AI & LLM Tools:</b> I've built RAG pipelines (using <u><a href=https://github.com/deepset-ai/haystack>Haystack</a></u>) to allow users to quickly query 1000+ internal documents supporting critical business processes. I've also made some minor <u><a href="https://github.com/deepset-ai/haystack/pull/8232">contributions</a></u> to Haystack itself.</li>
+      <li><b>🐳 Containerize Apps:</b> I frequently use Docker (often with Docker Compose) to containerize applications to improve reproducibility.</li>
+      <li><b>🐚 Write Shell Scripts:</b> I am very comfortable with bash scripting (which is particularly common in bioinformatics). I have also dabbled in bat scripting for Windows.</li>
+      <li><b>🧹 Collaborate Using git & GitHub:</b> I use git & GitHub daily to submit issues, make commits, merge changes, and review and submit pull requests. I like to use interactive rebase to keep the commit history clean. <u><a href=https://github.com/jesseduffield/lazygit>Lazygit</a></u> is my best friend.</li>
+      <li><b>✍🏻 Communicate and Document Effectively:</b> I prioritize writing readable code in order to clearly communicate the code's purpose. The joy I get from cleaning up messy code is like no other and highly motivating. I also use tools like Sphinx to write API documentation for python libraries.</li>
     </ul>
+    <h3>Data Infrastructure</h3>
+    <ul>
+      <li><b>🛠️ Build Maintainable Data Infrastructure: </b>In my current role, I used Ansible to rearchitect 3 on-prem linux servers used for compute-heavy bioinformatics workloads - I designed a standardized data architecture, optimized storage resources, improved security, and increased reproducibility of bioinformatics pipelines.</li>
+      <li><b>💾 Design and Query Databases:</b> I have experience designing small databases (~5-10 tables) from scratch. I have also worked with large legacy databases (100+ tables). I have experience with PostgreSQL, MySQL, as well as MongoDB.</li>
+      <li><b>☁ Optimize AWS Resources:</b> I use AWS daily (especially EC2, ECS, S3, and RDS), and I am always looking for ways to optimize existing infrastructure (In my current role, I reduced costs for some AWS accounts by more than 50% while meeting business requirements). In 2025, I passed the AWS Solutions Architect exam at the Associate level.</li>
+      <li><b>🔒 Prioritize Cybersecurity:</b> I've configured on-prem linux servers with security measures like SSH hardening and proper permissions & access control. I've implemented SSO on web app frontends and backends. See <u><a href=https://github.com/huggingface/chat-ui/pull/1631>this PR</a></u> where I added a new auth-related feature to an open-source LLM chat app.</li>
+      <li><b>📈 Build Dashboards to Bolster Observability: </b>I've used the OpenTelemetry Collector to send metrics to Grafana cloud. I've built dashboards in Grafana to track key metrics for products I (and others) have built. I've also built Grafana dashboards to monitor resource usage of on-prem servers.</li>
+      </ul>
     <h3>Scientific Background</h3>
     <ul>
-      <li><b>💭 Design & Analysis of Experiments:</b> I absolutely love working with experimentalists to design experiments and analyses that best answer the most pressing questions. I have experience with both frequentist statistics as well as Bayesian statistical modeling.</li>
-      <li><b>🤖 Machine Learning/AI:</b> Analyze complex datasets and make predictions. For example, I built a random forest regressor model using scikit-learn to predict chromatographic retention times in order to annotate unknown compounds in a metabolomics dataset.</li>
-      <li><b>🧬 Bioinformatics:</b> I have experience processing and analyzing large NGS, transcriptomics, proteomics, and metabolomics datasets.</li>
+      <li><b>🫱🏻‍🫲🏽 Communicate Effectively (especially with Scientists):</b> With a STEM PhD and as a former scientist myself, I can collaborate effectively with key stakeholders on science teams during the development process.</li>
+      <li><b>✍🏻 Scientific Writing:</b> I clearly communicate my science to the rest of the world or company. <u><a href="https://scholar.google.com/citations?user=QSoCVUUAAAAJ&hl=en&authuser=1">My work</a></u> has been published in <i>Bioinformatics</i>, <i>PLoS Computational Biology</i>, and <i>Nature Biotechnology</i>.</li>
+      <li><b>📊 Data Visualization:</b> I love thinking about ways to visualize data to meet user requirements. I am experienced with python libraries such as matplotlib, seaborn, and bokeh. I have also used tools like streamlit to create interactive dashboards.</li>
+      <li><b>🏭 High-Performance Computing:</b> I have used the Slurm Workload Manager to submit jobs on supercomputing clusters. For example, I used the Quest supercomputing cluster at Northwestern University to predict MS2 spectra for millions of molecules in parallel.</li>
+      <li><b>💭 Design & Analysis of Experiments:</b> I enjoy working with scientists to design experiments and analyses that best answer the most pressing questions. I have experience with both frequentist statistics as well as Bayesian statistical modeling.</li>
+      <li><b>🧮 Mathematical Modeling:</b> I have used linear programming techniques to make metabolic state predictions for bacteria. I have also developed kinetic metabolic models, using both deterministic (e.g. ODE) and stochastic (e.g. Kinetic Monte Carlo) methods.</li>
+      <li><b>🤖 Machine Learning:</b> During my PhD, I built a random forest regressor model using scikit-learn to predict chromatographic retention times in order to help identify unknown molecules in a metabolomics dataset.</li>
+      <li><b>🧬 Bioinformatics:</b> I have experience processing and analyzing large genomics & transcriptomics datasets (e.g. alignment, variant calling, assembly & annotation). I also have experience processing and annotating metabolomics datasets.</li>
       <li><b>🧪 Cheminformatics:</b> I have used tools like RDKit and mordred to process, analyze, and interpret chemical data.</li>
-      <li><b>🧮 Mathematical Modeling:</b> I have used Genome-scale Models (GEMs) to make predictions using cobrapy. I have also developed kinetic metabolic models, using both deterministic (e.g. ODE) and stochastic (e.g. Kinetic Monte Carlo) kinetic modeling approaches.</li>
-      <li><b>✍🏻 Scientific Writing:</b> I clearly communicate my science to the rest of the world or company. My work has been published in <i>Bioinformatics</i>, <i>PLoS Computational Biology</i>, and <i>Nature Biotechnology</i>.</li>
+    </ul>
+    <h3>Other</h3>
+    <ul>
+      <li><b>📱 Develop iOS applications:</b> I develop iPhone apps on the side - currently, the apps I've built just live on my phone (I build them primarily for my own use), but I might release some in the future (see blog for more details).</li>
+      <li><b>🏋️‍♂️ Strength Training:</b> I love optimizing my strength training protocols. I've been lifting weights for 10+ years and am obsessed with the science behind strength gain and muscle growth.</li>
+      <li><b>🇯🇵 Japanese:</b> I've been learning Japanese for 10+ years now (and I still suck, but I enjoy it). I've put in over 1,000 hours reading & listening to Japanese.</li>
     </ul>
 
     <!-- Professional Experience -->
@@ -87,16 +103,16 @@ title: CV
     <h1 class="subheading">Education</h1>
     <b>Northwestern University (Evanston, IL)</b> - Sep 2016 - June 2022
     <li style="margin-bottom: 0">Ph.D. Chemical & Biological Engineering</li>
-    <li style="margin-bottom: 0">Advisors: Keith Tyo & Linda Broadbelt</li>
-    <li>Thesis: <i>Computational Approaches for Enhanced Metabolomics Annotation and DNA-based Biorecording and Data Storage</i></li>
+    <li style="margin-bottom: 0">Co-advised by Keith Tyo & Linda Broadbelt</li>
+    <li><i>Computational Approaches for Enhanced Metabolomics Annotation and DNA-based Biorecording and Data Storage</i></li>
 
     <b>Ohio State University (Columbus, OH)</b> - Sep 2011 - Dec 2015
     <li style="margin-bottom: 0">B.S. Chemical & Biomolecular Engineering</li>
-    <li style="margin-bottom: 0">Minors: Biomedical Engineering, German</li>
-    <li>GPA: 3.82</li>
+    <li style="margin-bottom: 0">Biomedical Engineering Minor</li>
+    <li>German Minor</li>
 
     <b>Circleville High School (Circleville, OH)</b> - 2007 - 2011
-    <li>Valedictorian (GPA: 4.55)</li>
+    <li>Valedictorian</li>
 
     <!-- Honors & Awards -->
     <h1 class="subheading">Honors & Awards</h1>
@@ -136,8 +152,12 @@ title: CV
     
     <div style="font-size: 16px;">
       <b>Primary Research</b>
+      <li>Callisto A, <b>Strutz J</b>, Leeper K, Kalhor R, Church G, Tyo KEJ, Bhan N (2024)
+      Post-translational digital data encoding into the genomes of mammalian cell populations.
+      <i>bioRxiv</i> (in review)</li>
+
       <li>Shebek K, <b>Strutz J</b>, Broadbelt L, Tyo K (2023)
-      Pickaxe: a Python library for the prediction of novel metabolic reactions
+      Pickaxe: a Python library for the prediction of novel metabolic reactions.
       <i>BMC Bioinformatics</i> 24:106</li>
 
       <li><b>Strutz J</b>, Shebek K, Broadbelt L, Tyo K (2022)
