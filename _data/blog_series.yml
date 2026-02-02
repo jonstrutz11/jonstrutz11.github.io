@@ -1,9 +1,12 @@
-- name: "GogenDex: An iOS App Development Journey"
+- name: "Strength Training"
+  tag: StrengthTraining
+  link: blog-series-strength-training.html
+- name: "GogenDex: An iOS App for Learning Pokemon Names in Japanese"
   tag: GogenDex
   link: blog-series-gogendex.html
 - name: "Japanese: A Language-Learning Journey"
   tag: Japanese
   link: blog-series-japanese.html
-- name: "KameKurosu: An iOS App Development Journey"
+- name: "KameKurosu: An iOS App for Practicing Japanese with Crosswords"
   tag: KameKurosu
   link: blog-series-kamekurosu.html
