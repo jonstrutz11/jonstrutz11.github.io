@@ -1,3 +1,6 @@
+- name: "Career Goals & Aspirations"
+  tag: Career
+  link: blog-series-career.html
 - name: "Strength Training"
   tag: StrengthTraining
   link: blog-series-strength-training.html
